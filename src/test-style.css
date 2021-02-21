@@ -1,0 +1,126 @@
+button {
+    background-color: #ad343e;
+    width: 150px;
+    height: 50px;
+    padding: 5px 25px;
+    color: white;
+    font-size: 18px;
+    border: #333 1px solid;
+    border-radius: 5px;
+    display: block;
+    margin: 30px auto;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: red;
+  }
+  button:active {
+    background-color: #5f1d22;
+  }
+  button:focus {
+    border: 1px solid cornflowerblue;
+  }
+  body {
+    margin: 0;
+    /* background-image: url(assets/background-03.png); */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button, a {
+  text-decoration: none;
+  color: white;
+}
+
+header a {
+  color: #bf3334;
+  font-size: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 10px;
+}
+
+header > a,
+#root > div > h1 {
+  display: inline-block;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkXEbu_sJ__fMlzUv0S0kZpZEXg5Dyw3F1yw&usqp=CAU); */
+  width: 360px;
+  height: 120px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+.grid-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  margin-top: 60px;
+}
+.grid-header{
+  color: white;
+  font-size: 40px;
+}
+
+#modal {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#modal:empty {
+  display: none;
+}
+#modal > div {
+  background-color: white;
+  max-width: 500px;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+  
+#modal .buttons button {
+  display: inline-block;
+}
+#modal button {
+  background-color: #ad343e;
+  padding: 5px 25px;
+  color: white;
+  font-size: 18px;
+  border: #333 1px solid;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.search-params {
+  width: 95%;
+}
+
+.search-params form {
+  background-color: #d9c148;
+  width: 100%;
+  margin: 0px 25px 0px 0px;
+  padding: 35px 15px 15px 15px;
+  border-radius: 5px;
+  float: left;
+}
+
+.search-params form {
+  margin-bottom: 20px;
+}
+.search-params label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-params button{
+  margin: 20px auto !important;
+}
