@@ -10,7 +10,7 @@
 
 1. Eliminar el archivo "package-lock.json".
 2. Crear el archivo ".env" dentro de la carpeta "src" del proyecto.
-3. Asignar el valor de su API Key de Google Maps de la siguiente manera, considerando que "my_api_key" es el valor de mi propia API Key de desarrollador.
+3. Asignar el valor de su API Key de Google Maps de la siguiente manera, considerando que "my_api_key" es el valor de mi propia API Key de desarrollador:
 	REACT_APP_GOOGLE_KEY="my_api_key"
 
 4. Abrir una consola o terminal de gitbash con ruta en la carpeta del proyecto.
